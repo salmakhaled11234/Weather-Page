@@ -1,0 +1,39 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+#city-input {
+    padding: 10px;
+    width: 70%;
+}
+
+#submit-btn {
+    padding: 10px;
+}
+
+.weather-info {
+    text-align: center; /* Center-aligns all content in the weather-info div */
+}
+
+.weather-info img {
+    display: block; /* Allows margin auto to center the image */
+    margin: 1rem auto; /* Adds some spacing and centers the image */
+    width: 100px; /* Adjusts the size of the weather icon */
+    height: auto; /* Maintains aspect ratio */
+}
+
+
+
+#weather-icon {
+    display: none; /* Hide the icon initially */
+    width: 100px; /* Adjust as needed */
+    height: auto;
+}
+
